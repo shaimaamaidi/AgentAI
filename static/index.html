@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agent AI - Chat Git</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Agent AI — Entrer un dépôt Git</h1>
+    </header>
+
+    <main id="chat">
+      <div id="messages"></div>
+    </main>
+
+    <form id="urlForm" class="composer">
+      <input id="urlInput" type="text" placeholder="Collez un URL Git (ex: https://github.com/user/repo.git)" autocomplete="off" />
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <div id="status" aria-live="polite"></div>
+  </div>
+
+  <script src="/static/js/chat.js"></script>
+</body>
+</html>

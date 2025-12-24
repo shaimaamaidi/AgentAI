@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environnement virtuel
+venv/
+.env
+.venv/
+
+# Byte-compiled / cache
+*.egg-info/
+.dist-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+build/
+dist/
+
+# Node
+node_modules/
+
+# Logs
+*.log
